@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="gc40edfad1bc0b78f8637720b40a40c22" title="Электронное дз 8">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g556d5bec32aa42eb9207d07088c60c12" title="8.1">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3816,1339,849,3313,972,1294,5162,8352</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g5743221302d60e9fa6a2f5f09a7c170f</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения:&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="3816">
+                <material>
+                  <mattext texttype="text/plain">Любой случайный оракул стойкий к нахождению коллизий второго рода</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1339">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая к коллизиям второго рода хэш-функция является стойкой к коллизиям первого рода</mattext>
+                </material>
+              </response_label>
+              <response_label ident="849">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая к коллизиям второго рода хэш-функция является стойкой односторонней хэш-функцией</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3313">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Любой стойкий MAC с фиксированным ключом и сверх-полиномиальной областью определения даёт стойкую к коллизиям хэш-функцию&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="972">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;На любую хэш-функцию на \( (M,T) \) возможна теоретическая атака сложностью \( |T|^{1/2} \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1294">
+                <material>
+                  <mattext texttype="text/plain">Атака на стойкость хэш-функции в модели случайного оракула даёт атаку в модели односторонней хэш-функции</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5162">
+                <material>
+                  <mattext texttype="text/plain">Атака на стойкость к коллизиям второго рода для некоторой хэш-функции даёт атаку на случайный оракул для данной функции.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8352">
+                <material>
+                  <mattext texttype="text/plain">Отправка хэш-значения для некоторой величины (выбранной равномерно из множества со сверх-полиномиальной мощностью) по открытому каналу гарантирует, что противник не сможет восстановить данную величину. (используется хэш-функция, стойкая к коллизиям второго рода)</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">3816</varequal>
+                <varequal respident="response1">1339</varequal>
+                <varequal respident="response1">849</varequal>
+                <not>
+                  <varequal respident="response1">3313</varequal>
+                </not>
+                <varequal respident="response1">972</varequal>
+                <not>
+                  <varequal respident="response1">1294</varequal>
+                </not>
+                <varequal respident="response1">5162</varequal>
+                <varequal respident="response1">8352</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga5bea52425430cad28a89954092e5234" title="8.2">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb546898636d05bff186973964316bd6e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Рассмотри следующие функции сжатия&lt;/p&gt;
+&lt;p&gt;\(f_1 = AES(y,x,) \oplus y \)&lt;/p&gt;
+&lt;p&gt;\( f_2 = AES(x,x) \oplus y \)&lt;/p&gt;
+&lt;p&gt;Задача – найти 4 различные пары \( (x_1,y_1), (x_2, y_2), (x_3, y_3), (x_4, y_4)\):&lt;/p&gt;
+&lt;p&gt;\( f_1(x_1,y_1)=f_1(x_2,y_2) \)&lt;/p&gt;
+&lt;p&gt;\( f_2(x_3,y_3) = f_2(x_4,y_4) \)&lt;/p&gt;
+&lt;p&gt;Необходимо вывести в виде формулы получение этих пар и представить ответ в виде hex-строки.&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g20301fb961f0af1c8b4ac2b60c447a13" title="8.4.l">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1543,8668,3714,2630,8985,4309,7362,265</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g81aa781d9756beb2a93563d4eb636632</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( H: M \rightarrow T \)&amp;nbsp; – стойкая к коллизиям хэш-функция. Какая их описанных хэш-функций является стойкой?&amp;nbsp;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="1543">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(m)\oplus H(m\oplus 1^{|m|}  ) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8668">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(m)\oplus H(m) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3714">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(m)\Vert H(m) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2630">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(m)\oplus H(0) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8985">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(m)\Vert| H(0) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4309">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(H(H(m))) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7362">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=H(0) \)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="265">
+                <material>
+                  <mattext texttype="text/plain">\( H' (m)=HMAC(m,m) \)</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">1543</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">8668</varequal>
+                </not>
+                <varequal respident="response1">3714</varequal>
+                <varequal respident="response1">2630</varequal>
+                <varequal respident="response1">8985</varequal>
+                <varequal respident="response1">4309</varequal>
+                <not>
+                  <varequal respident="response1">7362</varequal>
+                </not>
+                <varequal respident="response1">265</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga34b13dd23a988d4d8eafedb0311c314" title="8.6.l">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g837390eb1ce5ec397c34933916943188</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Почитать что такое дерево Меркла (Merkle tree).&lt;/p&gt;
+&lt;p&gt;Пусть имеется 647 различных файлов. Ответе на вопросы ниже.&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;a&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Какова высота дерева меркла для вычисления хэш-значения, обеспечивающего целостность всех файлов?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;b&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Какое количество хэшей необходимо пересчитать, при замене одного из файлов?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;c&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Какое минимальное количество хэшей необходимо пересчитать при замене 4-х файлов?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;d&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Какое максимальное количество хэшей необходимо пересчитать при замене 4-х файлов?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;e&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Какое количество хэшей необходимо вычислить при построении дерева?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;f&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Сколько узлов хэш значений отвечает за целостность одного файла?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;g&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;За целостность какого количество файлов отвечает корневой узел?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="37"&gt;
+&lt;p&gt;h&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="435"&gt;
+&lt;p&gt;Предположим необходимо переслать один из файлов. Предполагая, что получатель знает только значение корня дерева (и может проверить только его) Меркла, какое минимальное количество узлов дерева необходимо переслать вместе с файлом, для осуществления проверки файла получателем? (authentication path)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="$IMS-CC-FILEBASE$/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png" alt="изображение.png"&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

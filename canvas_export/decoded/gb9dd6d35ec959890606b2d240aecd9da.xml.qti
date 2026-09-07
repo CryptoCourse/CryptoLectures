@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="gb9dd6d35ec959890606b2d240aecd9da" title="Электронное дз 9">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>240</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="gb68f0f60435adcba1d0f89e994a46dd7" title="9.1">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>9.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8031,5937,4396,4174,7204,1765,1681,7023,1254</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g768bbb6422c95c4785cb0824a5195f2a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения:&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="8031">
+                <material>
+                  <mattext texttype="text/plain">Любую схему стойкого аутентифицированного шифрования можно использовать в качестве стойкого кода аутентичности</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5937">
+                <material>
+                  <mattext texttype="text/plain">При использовании схемы MAC-then-Encrypt необходимо использовать независимые ключи для MAC и шифрования</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4396">
+                <material>
+                  <mattext texttype="text/plain">При использовании схемы EAX необходимо использовать независимые ключи для MAC и шифрования</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4174">
+                <material>
+                  <mattext texttype="text/plain">CCA стойкость более сильно определение, чем CPA стойкость</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7204">
+                <material>
+                  <mattext texttype="text/plain">Возможно построить CCA стойкий шифр, который не будет CPA стойким</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1765">
+                <material>
+                  <mattext texttype="text/plain">Обеспечение целостности открытых текстов не может быть обеспечено через целостность соответствующих шифртекстов</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1681">
+                <material>
+                  <mattext texttype="text/plain">Схема Encrypt-and-MAC в общем случае является нестойкой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7023">
+                <material>
+                  <mattext texttype="text/plain">CCA стойкости достаточно для защиты аутентичности от пассивных противников</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1254">
+                <material>
+                  <mattext texttype="text/plain">Целостность шифртекстов более сильное определение, чем целостность открытых текстов, при передаче шифртекстов по каналу связи</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">8031</varequal>
+                <varequal respident="response1">5937</varequal>
+                <not>
+                  <varequal respident="response1">4396</varequal>
+                </not>
+                <varequal respident="response1">4174</varequal>
+                <not>
+                  <varequal respident="response1">7204</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">1765</varequal>
+                </not>
+                <varequal respident="response1">1681</varequal>
+                <varequal respident="response1">7023</varequal>
+                <varequal respident="response1">1254</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ge641d4daa6787ca04d9d60f5f1be765d" title="9.2.l">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8870,9707,4879,9704</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gd0175938926890a0511958617e7ae16e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( k \in_r K \) – случайная величина, полученная с использованием неравномерного распределения, \( K=\{0,1\}^{256} \):&lt;/p&gt;
+&lt;p&gt;\( \forall c \in \{0,1\}^{256}: Pr[k=c] = \) if \( MSB_{128}(c)==0^{128} \{ 2^{-128} \} \) else \( \{ 0 \} \)&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;Иными словами, \(k \) выбирается из подмножества векторов в \( K \), для которых первые 128 бит – нулевые.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;Пусть \( F(k,x) \) – стойкая PRF, с множеством ключей \( K \). Какие из PRF ниже является стойкими PRF (в практическом смысле, минимальный параметр стойкость – 80 бит), но не является стойкими при выборе \( k \) c использованием распределения, описанного выше?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8870">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( F' (k,x)=if MSB_{128}(k)\neq 0^{128} \{ F(k,x) \}; else \{ 0^{256} \} \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9707">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( F' (k,x)=if MSB_{128}(k)\neq 1^{128} \{ F(k,x) \}; else \{ 0^{256} \} \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4879">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( F' (k,x)=F(k,x) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9704">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( F' (k,x)=if MSB_{128}(k)\neq 1^{128} \{ F(k,x) \}; else \{ 1^{256} \} \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8870</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g475b38de1d5bca9782feeac9c7382a31" title="9.4.l">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g23e4b5fbd31ea34b35792967f5fefa44</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( (E,D) \) – строго стойкий блочный шифр на \( (K,M \times R),1/|R| \) - пренебрежимо малая. Докажите, что шифр ниже стойкий CCA шифр, но не стойкий AE шифр (не обеспечивается целостность шифртекстов). Строго стойкий блочных шифр (strongly secure block cipher) – шифр, стойкий против противников, которые могут помимо запросов на зашифрование произвольных блоков запрашивать запросы на расшифрование произвольных блоков блочного шифра в игре на стойкость блочного шифра (PRP).&lt;/p&gt;
+&lt;p&gt;\( E' (k,m)={r←^R R,c←^R E(k,(m,r)),return \{ c \}} \)&lt;br&gt;\( D' (k,c)={(m,r' )←D(k,c),return \{ m \}} \)&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

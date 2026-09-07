@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g898f4ed0b877629ea7e69334d2b1b69b" title="Электронное дз 1">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>180</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g7d3773f99af70e80df5852ec2b8c420e" title="1.a">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5040</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gdcf6286e9d2363d5bc49e5289a1910f9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a\in_R \{0,1\}^7" src="https://canvas.instructure.com/equation_images/a%255Cin_R%2520%255C%257B0%252C1%255C%257D%255E7?scale=1" alt="LaTeX: a\in_R \{0,1\}^7" data-equation-content="a\in_R \{0,1\}^7" data-ignore-a11y-check=""&gt;, равномерное распределение&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">7.0</varequal>
+                <and>
+                  <vargte respident="response1">7.0</vargte>
+                  <varlte respident="response1">7.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gae3b388c22732fc87c99fd68ab6f8a8c" title="1.b">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>95</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g80a707be9a19e3a35aafb1195bb5c2e4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a=(0,0,0,0,0,0,0,0)\in\{0,1\}^8" src="https://canvas.instructure.com/equation_images/a%253D(0%252C0%252C0%252C0%252C0%252C0%252C0%252C0)%255Cin%255C%257B0%252C1%255C%257D%255E8?scale=1" alt="LaTeX: a=(0,0,0,0,0,0,0,0)\in\{0,1\}^8" data-equation-content="a=(0,0,0,0,0,0,0,0)\in\{0,1\}^8" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.0</varequal>
+                <and>
+                  <vargte respident="response1">0.0</vargte>
+                  <varlte respident="response1">0.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1ea3d02984b9f31616b7cb0ac581e629" title="1.c">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2821</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gfe7653fe232aa26f405ba5fc7e770a4b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a=(1,1,0,0,0,0,0,0,0,0)\in\{0,1\}^{10}" src="https://canvas.instructure.com/equation_images/a%253D(1%252C1%252C0%252C0%252C0%252C0%252C0%252C0%252C0%252C0)%255Cin%255C%257B0%252C1%255C%257D%255E%257B10%257D?scale=1" alt="LaTeX: a=(1,1,0,0,0,0,0,0,0,0)\in\{0,1\}^{10}" data-equation-content="a=(1,1,0,0,0,0,0,0,0,0)\in\{0,1\}^{10}" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.0</varequal>
+                <and>
+                  <vargte respident="response1">0.0</vargte>
+                  <varlte respident="response1">0.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g6c26ce5f3ceb5c7de8a0a2d73b989c23" title="1.d">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>886</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb80ff4e901cac73172a6e81e12c95e5d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a=(1,1,1,0,0,0,1,0,1,0,1,1,0)\in\{0,1\}^{13}" src="https://canvas.instructure.com/equation_images/a%253D(1%252C1%252C1%252C0%252C0%252C0%252C1%252C0%252C1%252C0%252C1%252C1%252C0)%255Cin%255C%257B0%252C1%255C%257D%255E%257B13%257D?scale=1" alt="LaTeX: a=(1,1,1,0,0,0,1,0,1,0,1,1,0)\in\{0,1\}^{13}" data-equation-content="a=(1,1,1,0,0,0,1,0,1,0,1,1,0)\in\{0,1\}^{13}" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.0</varequal>
+                <and>
+                  <vargte respident="response1">0.0</vargte>
+                  <varlte respident="response1">0.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g1a19262de4b191200091251249488cd3" title="1.e">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9624</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g084b461b7ee4cbde52053cf70bfa3501</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a\in\{0,1\}^{10},a_0=1" src="https://canvas.instructure.com/equation_images/a%255Cin%255C%257B0%252C1%255C%257D%255E%257B10%257D%252Ca_0%253D1?scale=1" alt="LaTeX: a\in\{0,1\}^{10},a_0=1" data-equation-content="a\in\{0,1\}^{10},a_0=1" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">9.0</varequal>
+                <and>
+                  <vargte respident="response1">9.0</vargte>
+                  <varlte respident="response1">9.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga69bd43a5ec4685f4018854732f4466c" title="1.f">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8755</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2486aed0a8bc67fa79f0389ae3ff9616</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a\in\{0,1\}^{10},a_0=a_9" src="https://canvas.instructure.com/equation_images/a%255Cin%255C%257B0%252C1%255C%257D%255E%257B10%257D%252Ca_0%253Da_9?scale=1" alt="LaTeX: a\in\{0,1\}^{10},a_0=a_9" data-equation-content="a\in\{0,1\}^{10},a_0=a_9" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">9.0</varequal>
+                <and>
+                  <vargte respident="response1">9.0</vargte>
+                  <varlte respident="response1">9.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4a23257c7eea6326c84e912c6cedf3d9" title="1.g">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>96</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb49164588e1f5c710d5a3aaac51f3b56</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a\in\{0,1\}^{16},a_i=a_{i-1}\oplus 1,i=1..15" src="https://canvas.instructure.com/equation_images/a%255Cin%255C%257B0%252C1%255C%257D%255E%257B16%257D%252Ca_i%253Da_%257Bi-1%257D%255Coplus%25201%252Ci%253D1..15?scale=1" alt="LaTeX: a\in\{0,1\}^{16},a_i=a_{i-1}\oplus 1,i=1..15" data-equation-content="a\in\{0,1\}^{16},a_i=a_{i-1}\oplus 1,i=1..15" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">1.0</varequal>
+                <and>
+                  <vargte respident="response1">1.0</vargte>
+                  <varlte respident="response1">1.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb0df8eb1da2b346115bc5b81738296fe" title="1.h">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8522</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g7bc4310b1fa5926b3b19b205d93b222d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Вычислить энтропию следующей величины:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="a\in\{0,1\}^{16},a_{2k}=0,k=0..7" src="https://canvas.instructure.com/equation_images/a%255Cin%255C%257B0%252C1%255C%257D%255E%257B16%257D%252Ca_%257B2k%257D%253D0%252Ck%253D0..7?scale=1" alt="LaTeX: a\in\{0,1\}^{16},a_{2k}=0,k=0..7" data-equation-content="a\in\{0,1\}^{16},a_{2k}=0,k=0..7" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">8.0</varequal>
+                <and>
+                  <vargte respident="response1">8.0</vargte>
+                  <varlte respident="response1">8.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g61358ba8a01bf4932e94aa60790850a4" title="2.a">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8742</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2aeb5758f4d16e0fef4ea493b57e04af</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Рассмотрим игру с двумя экспериментами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;В эксперименте 0 претендент подбрасывает монетку и возвращает &lt;strong&gt;РЕШКА&lt;/strong&gt;, если выпалa решка, и &lt;strong&gt;ОРЁЛ&lt;/strong&gt; если орёл.&lt;/li&gt;
+&lt;li&gt;В эксперименте 1 претендент всегда возвращает &lt;strong&gt;ОРЁЛ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цель противника различить два эксперимента. Пусть &lt;img class="equation_image" title="W_b" src="https://canvas.instructure.com/equation_images/W_b?scale=1" alt="LaTeX: W_b" data-equation-content="W_b" data-ignore-a11y-check=""&gt; событие того, что в эксперименте &lt;img class="equation_image" title="b\in\{0,1\}" src="https://canvas.instructure.com/equation_images/b%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: b\in\{0,1\}" data-equation-content="b\in\{0,1\}" data-ignore-a11y-check=""&gt; противник возвращает 1. Преимущество противника &lt;img class="equation_image" title="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" src="https://canvas.instructure.com/equation_images/Adv%255BA%255D%253D%257CPr%255BW_0%255D-Pr%255BW_1%255D%257C%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-equation-content="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-ignore-a11y-check=""&gt;.&lt;/p&gt;
+&lt;p&gt;Вычислить &amp;nbsp;для следующих алгоритмов:&lt;/p&gt;
+&lt;p&gt;A: всегда возвращает 1&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.0</varequal>
+                <and>
+                  <vargte respident="response1">0.0</vargte>
+                  <varlte respident="response1">0.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g206b01822c793a00aa0c6dfaa8f465f5" title="2.b">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8878</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g7d722b57f0b56ea06fc532cdb9330322</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Рассмотрим игру с двумя экспериментами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;В эксперименте 0 претендент подбрасывает монетку и возвращает &lt;strong&gt;РЕШКА&lt;/strong&gt;, если выпалa решка, и &lt;strong&gt;ОРЁЛ&lt;/strong&gt; если орёл.&lt;/li&gt;
+&lt;li&gt;В эксперименте 1 претендент всегда возвращает &lt;strong&gt;ОРЁЛ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цель противника различить два эксперимента. Пусть &lt;img class="equation_image" title="W_b" src="https://canvas.instructure.com/equation_images/W_b?scale=1" alt="LaTeX: W_b" data-equation-content="W_b" data-ignore-a11y-check=""&gt; событие того, что в эксперименте &lt;img class="equation_image" title="b\in\{0,1\}" src="https://canvas.instructure.com/equation_images/b%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: b\in\{0,1\}" data-equation-content="b\in\{0,1\}" data-ignore-a11y-check=""&gt; противник возвращает 1. Преимущество противника &lt;img class="equation_image" title="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" src="https://canvas.instructure.com/equation_images/Adv%255BA%255D%253D%257CPr%255BW_0%255D-Pr%255BW_1%255D%257C%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-equation-content="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-ignore-a11y-check=""&gt;.&lt;/p&gt;
+&lt;p&gt;Вычислить &amp;nbsp;для следующих алгоритмов:&lt;/p&gt;
+&lt;p&gt;A: всегда возвращает 1 с вероятностью 0.5, иначе - 0&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.0</varequal>
+                <and>
+                  <vargte respident="response1">0.0</vargte>
+                  <varlte respident="response1">0.0</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ga342c82bebf628753eb93480945e1b72" title="2.c">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5614</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g05b9942dea43cc79210122931043ac88</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Рассмотрим игру с двумя экспериментами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;В эксперименте 0 претендент подбрасывает монетку и возвращает &lt;strong&gt;РЕШКА&lt;/strong&gt;, если выпалa решка, и &lt;strong&gt;ОРЁЛ&lt;/strong&gt; если орёл.&lt;/li&gt;
+&lt;li&gt;В эксперименте 1 претендент всегда возвращает &lt;strong&gt;ОРЁЛ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цель противника различить два эксперимента. Пусть &lt;img class="equation_image" title="W_b" src="https://canvas.instructure.com/equation_images/W_b?scale=1" alt="LaTeX: W_b" data-equation-content="W_b" data-ignore-a11y-check=""&gt; событие того, что в эксперименте &lt;img class="equation_image" title="b\in\{0,1\}" src="https://canvas.instructure.com/equation_images/b%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: b\in\{0,1\}" data-equation-content="b\in\{0,1\}" data-ignore-a11y-check=""&gt; противник возвращает 1. Преимущество противника &lt;img class="equation_image" title="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" src="https://canvas.instructure.com/equation_images/Adv%255BA%255D%253D%257CPr%255BW_0%255D-Pr%255BW_1%255D%257C%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-equation-content="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-ignore-a11y-check=""&gt;.&lt;/p&gt;
+&lt;p&gt;Вычислить &amp;nbsp;для следующих алгоритмов:&lt;/p&gt;
+&lt;p&gt;A: возвращает 1, если от претендента получена &lt;strong&gt;РЕШКА&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.5</varequal>
+                <and>
+                  <vargte respident="response1">0.5</vargte>
+                  <varlte respident="response1">0.5</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g90f0f0b9337a4c9e1eae7b6538e9d161" title="2.d">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>186</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g9a3fe71794e4f5f8dfbf0d82c0f2a22e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Рассмотрим игру с двумя экспериментами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;В эксперименте 0 претендент подбрасывает монетку и возвращает &lt;strong&gt;РЕШКА&lt;/strong&gt;, если выпалa решка, и &lt;strong&gt;ОРЁЛ&lt;/strong&gt; если орёл.&lt;/li&gt;
+&lt;li&gt;В эксперименте 1 претендент всегда возвращает &lt;strong&gt;ОРЁЛ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цель противника различить два эксперимента. Пусть &lt;img class="equation_image" title="W_b" src="https://canvas.instructure.com/equation_images/W_b?scale=1" alt="LaTeX: W_b" data-equation-content="W_b" data-ignore-a11y-check=""&gt; событие того, что в эксперименте &lt;img class="equation_image" title="b\in\{0,1\}" src="https://canvas.instructure.com/equation_images/b%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: b\in\{0,1\}" data-equation-content="b\in\{0,1\}" data-ignore-a11y-check=""&gt; противник возвращает 1. Преимущество противника &lt;img class="equation_image" title="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" src="https://canvas.instructure.com/equation_images/Adv%255BA%255D%253D%257CPr%255BW_0%255D-Pr%255BW_1%255D%257C%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-equation-content="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-ignore-a11y-check=""&gt;.&lt;/p&gt;
+&lt;p&gt;Вычислить &amp;nbsp;для следующих алгоритмов:&lt;/p&gt;
+&lt;p&gt;A: возвращает 0, если от претендента получена &lt;strong&gt;РЕШКА&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.5</varequal>
+                <and>
+                  <vargte respident="response1">0.5</vargte>
+                  <varlte respident="response1">0.5</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0cac1044dee1fc0b6a72f78a0253e484" title="2.e">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>9652</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ga158173ff6961c8dc64928ce5bafa907</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Рассмотрим игру с двумя экспериментами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;В эксперименте 0 претендент подбрасывает монетку и возвращает &lt;strong&gt;РЕШКА&lt;/strong&gt;, если выпалa решка, и &lt;strong&gt;ОРЁЛ&lt;/strong&gt; если орёл.&lt;/li&gt;
+&lt;li&gt;В эксперименте 1 претендент всегда возвращает &lt;strong&gt;ОРЁЛ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цель противника различить два эксперимента. Пусть &lt;img class="equation_image" title="W_b" src="https://canvas.instructure.com/equation_images/W_b?scale=1" alt="LaTeX: W_b" data-equation-content="W_b" data-ignore-a11y-check=""&gt; событие того, что в эксперименте &lt;img class="equation_image" title="b\in\{0,1\}" src="https://canvas.instructure.com/equation_images/b%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: b\in\{0,1\}" data-equation-content="b\in\{0,1\}" data-ignore-a11y-check=""&gt; противник возвращает 1. Преимущество противника &lt;img class="equation_image" title="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" src="https://canvas.instructure.com/equation_images/Adv%255BA%255D%253D%257CPr%255BW_0%255D-Pr%255BW_1%255D%257C%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-equation-content="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-ignore-a11y-check=""&gt;.&lt;/p&gt;
+&lt;p&gt;Вычислить &amp;nbsp;для следующих алгоритмов:&lt;/p&gt;
+&lt;p&gt;A: возвращает 1, если от претендента получена &lt;strong&gt;РЕШКА&lt;/strong&gt;. Иначе - (возвращает 1, с вероятностью 0.5, иначе - 0).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.25</varequal>
+                <and>
+                  <vargte respident="response1">0.25</vargte>
+                  <varlte respident="response1">0.25</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gcf3f731fddc87fb1e8bb5ebe9264d0ad" title="2.f">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>2580</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb43f77b571f11b970638850d9340e169</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;div id="question_new_question_text" class="question_text user_content enhanced"&gt;
+&lt;p&gt;Рассмотрим игру с двумя экспериментами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;В эксперименте 0 претендент подбрасывает монетку и возвращает &lt;strong&gt;РЕШКА&lt;/strong&gt;, если выпалa решка, и &lt;strong&gt;ОРЁЛ&lt;/strong&gt; если орёл.&lt;/li&gt;
+&lt;li&gt;В эксперименте 1 претендент всегда возвращает &lt;strong&gt;ОРЁЛ&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цель противника различить два эксперимента. Пусть &lt;img class="equation_image" title="W_b" src="https://canvas.instructure.com/equation_images/W_b?scale=1" alt="LaTeX: W_b" data-equation-content="W_b" data-ignore-a11y-check=""&gt; событие того, что в эксперименте &lt;img class="equation_image" title="b\in\{0,1\}" src="https://canvas.instructure.com/equation_images/b%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: b\in\{0,1\}" data-equation-content="b\in\{0,1\}" data-ignore-a11y-check=""&gt; противник возвращает 1. Преимущество противника &lt;img class="equation_image" title="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" src="https://canvas.instructure.com/equation_images/Adv%255BA%255D%253D%257CPr%255BW_0%255D-Pr%255BW_1%255D%257C%255Cin%255C%257B0%252C1%255C%257D?scale=1" alt="LaTeX: Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-equation-content="Adv[A]=|Pr[W_0]-Pr[W_1]|\in\{0,1\}" data-ignore-a11y-check=""&gt;.&lt;/p&gt;
+&lt;p&gt;Вычислить &amp;nbsp;для следующих алгоритмов:&lt;/p&gt;
+&lt;p&gt;Каково максимально возможное значение преимущества противника A?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.5</varequal>
+                <and>
+                  <vargte respident="response1">0.5</vargte>
+                  <varlte respident="response1">0.5</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gbfbec484393843df2f32b31820102d30" title="3">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3624,7839,6155,4188,1257,4887,8143,4882</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g5138fe2ccfbe89dd4ed1b8b8dc472f59</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения:&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="3624">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Абсолютно стойкий шифр всегда семантически стойкий&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7839">
+                <material>
+                  <mattext texttype="text/plain">Любой шифр Шеннона является абсолютно стойким</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6155">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Аддитивный одноразовый блокнот - семантически стойкий шифр&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4188">
+                <material>
+                  <mattext texttype="text/plain">Аддитивный одноразовый блокнот переменной длины – семантически стойкий шифр</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1257">
+                <material>
+                  <mattext texttype="text/plain">Если шифр имеет длины ключей больше длин шифртекстов то он абсолютно стойкий</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4887">
+                <material>
+                  <mattext texttype="text/plain">Если шифр имеет энтропии и длины ключей больше энтропий и длин шифртекстов то он абсолютно стойкий</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8143">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Если для всех пар сообщение – шифртекст (&lt;img class="equation_image" title="(m,c)\in M\times C" src="https://canvas.instructure.com/equation_images/(m%252Cc)%255Cin%2520M%255Ctimes%2520C?scale=1" alt="LaTeX: (m,c)\in M\times C" data-equation-content="(m,c)\in M\times C" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;∈&lt;/mo&gt;
+  &lt;mi&gt;M&lt;/mi&gt;
+  &lt;mo&gt;×&lt;/mo&gt;
+  &lt;mi&gt;C&lt;/mi&gt;
+&lt;/math&gt;&lt;/span&gt;) имеется одинаковое количество ключей &lt;img class="equation_image" title="k_i\in K" src="https://canvas.instructure.com/equation_images/k_i%255Cin%2520K?scale=1" alt="LaTeX: k_i\in K" data-equation-content="k_i\in K" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msub&gt;
+    &lt;mi&gt;k&lt;/mi&gt;
+    &lt;mi&gt;i&lt;/mi&gt;
+  &lt;/msub&gt;
+  &lt;mo&gt;∈&lt;/mo&gt;
+  &lt;mi&gt;K&lt;/mi&gt;
+&lt;/math&gt;&lt;/span&gt;, таких что &lt;img class="equation_image" title="E(k,m)=c" src="https://canvas.instructure.com/equation_images/E(k%252Cm)%253Dc?scale=1" alt="LaTeX: E(k,m)=c" data-equation-content="E(k,m)=c" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+&lt;/math&gt;&lt;/span&gt;, то шифр &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;D&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt; на &lt;img class="equation_image" title="(K,M,C)" src="https://canvas.instructure.com/equation_images/(K%252CM%252CC)?scale=1" alt="LaTeX: (K,M,C)" data-equation-content="(K,M,C)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;K&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;M&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;C&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt; - абсолютно стойкий &amp;nbsp;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4882">
+                <material>
+                  <mattext texttype="text/plain">Для семантически стойкого шифра энтропия ключа всегда больше или равна энтропии открытого текста.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">3624</varequal>
+                <not>
+                  <varequal respident="response1">7839</varequal>
+                </not>
+                <varequal respident="response1">6155</varequal>
+                <varequal respident="response1">4188</varequal>
+                <not>
+                  <varequal respident="response1">1257</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">4887</varequal>
+                </not>
+                <varequal respident="response1">8143</varequal>
+                <not>
+                  <varequal respident="response1">4882</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gc73f470e0c95d81e342a08c901b8f737" title="4">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb35f1c4d27177d231f3dbaf5c489739e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt; – одноразовый блокнот на &lt;img class="equation_image" title="(K,M,C):M=c=\{0,1\}^L, K=\{ k \in \{0,1\}^L:k_{2i}=1,i=0..{l/2-1}" src="https://canvas.instructure.com/equation_images/(K%252CM%252CC)%253AM%253Dc%253D%255C%257B0%252C1%255C%257D%255EL%252C%2520K%253D%255C%257B%2520k%2520%255Cin%2520%255C%257B0%252C1%255C%257D%255EL%253Ak_%257B2i%257D%253D1%252Ci%253D0..%257Bl%252F2-1%257D?scale=1" alt="LaTeX: (K,M,C):M=c=\{0,1\}^L, K=\{ k \in \{0,1\}^L:k_{2i}=1,i=0..{l/2-1}" data-equation-content="(K,M,C):M=c=\{0,1\}^L, K=\{ k \in \{0,1\}^L:k_{2i}=1,i=0..{l/2-1}" data-ignore-a11y-check=""&gt; (множество векторов длины , для которых чётные координаты равны 1).&amp;nbsp; &lt;br&gt;Является ли &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt; семантически стойким шифром? Если нет продемонстрируйте атаку с преимуществом равным 1.&lt;/p&gt;
+&lt;p&gt;Загрузите файл с доказательством стойкости или атакой.&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="ga6907a737a4d0df6d30ca296c8f9fb2b" title="5">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g498ff2d3f1230a591ce30aff32b84836</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt; – шифр подстановки на &lt;img class="equation_image" title="(K,M,C):M=C=\Sigma,K=S(\Sigma)" src="https://canvas.instructure.com/equation_images/(K%252CM%252CC)%253AM%253DC%253D%255CSigma%252CK%253DS(%255CSigma)?scale=1" alt="LaTeX: (K,M,C):M=C=\Sigma,K=S(\Sigma)" data-equation-content="(K,M,C):M=C=\Sigma,K=S(\Sigma)" data-ignore-a11y-check=""&gt; (множество подстановок на &lt;img class="equation_image" title="\Sigma" src="https://canvas.instructure.com/equation_images/%255CSigma?scale=1" alt="LaTeX: \Sigma" data-equation-content="\Sigma" data-ignore-a11y-check=""&gt; ).&amp;nbsp; &lt;br&gt;Является ли &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt; семантически стойким шифром? Если нет продемонстрируйте атаку с преимуществом равным 1.&lt;/p&gt;
+&lt;p&gt;Загрузите файл с доказательством стойкости или атакой.&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g7233b8b3ce62f9fd196b69bf21bd6183" title="6">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>9.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8548,3890,8595,7169,11,5458,4941,3630,9207</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g830747a641c287edfe75cf84d35c55e7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt; – детерминированный семантически стойкий шифр на &lt;img class="equation_image" title="(K,M,C):M=C=\{0,1\}^L" src="https://canvas.instructure.com/equation_images/(K%252CM%252CC)%253AM%253DC%253D%255C%257B0%252C1%255C%257D%255EL?scale=1" alt="LaTeX: (K,M,C):M=C=\{0,1\}^L" data-equation-content="(K,M,C):M=C=\{0,1\}^L" data-ignore-a11y-check=""&gt;. Какие из следующих алгоритмов является семантически стойкими?&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title=" par(a)" src="https://canvas.instructure.com/equation_images/%2520par(a)?scale=1" alt="LaTeX:  par(a)" data-equation-content=" par(a)" data-ignore-a11y-check=""&gt;- чётность вектора &lt;img class="equation_image" title="a" src="https://canvas.instructure.com/equation_images/a?scale=1" alt="LaTeX: a" data-equation-content="a" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="rev(a)" src="https://canvas.instructure.com/equation_images/rev(a)?scale=1" alt="LaTeX: rev(a)" data-equation-content="rev(a)" data-ignore-a11y-check=""&gt; - смена порядка бит в векторе &lt;img class="equation_image" title="a" src="https://canvas.instructure.com/equation_images/a?scale=1" alt="LaTeX: a" data-equation-content="a" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="8548">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=0||E(k,m)" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253D0%257C%257CE(k%252Cm)?scale=1" alt="LaTeX: E'(k,m)=0||E(k,m)" data-equation-content="E'(k,m)=0||E(k,m)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mn&gt;0&lt;/mn&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3890">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=E(k,m)||par(m)" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253DE(k%252Cm)%257C%257Cpar(m)?scale=1" alt="LaTeX: E'(k,m)=E(k,m)||par(m)" data-equation-content="E'(k,m)=E(k,m)||par(m)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mi&gt;p&lt;/mi&gt;
+  &lt;mi&gt;a&lt;/mi&gt;
+  &lt;mi&gt;r&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8595">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=rev(E(k,m))" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253Drev(E(k%252Cm))?scale=1" alt="LaTeX: E'(k,m)=rev(E(k,m))" data-equation-content="E'(k,m)=rev(E(k,m))" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;r&lt;/mi&gt;
+  &lt;mi&gt;e&lt;/mi&gt;
+  &lt;mi&gt;v&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7169">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=E(k,rev(m))" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253DE(k%252Crev(m))?scale=1" alt="LaTeX: E'(k,m)=E(k,rev(m))" data-equation-content="E'(k,m)=E(k,rev(m))" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;r&lt;/mi&gt;
+  &lt;mi&gt;e&lt;/mi&gt;
+  &lt;mi&gt;v&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="11">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=E(0^L,m)" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253DE(0%255EL%252Cm)?scale=1" alt="LaTeX: E'(k,m)=E(0^L,m)" data-equation-content="E'(k,m)=E(0^L,m)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mn&gt;0&lt;/mn&gt;
+    &lt;mi&gt;L&lt;/mi&gt;
+  &lt;/msup&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5458">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=E(k,m)||k" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253DE(k%252Cm)%257C%257Ck?scale=1" alt="LaTeX: E'(k,m)=E(k,m)||k" data-equation-content="E'(k,m)=E(k,m)||k" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4941">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'((k,k'), m)=E(k,m)||E(k',m)" src="https://canvas.instructure.com/equation_images/E'((k%252Ck')%252C%2520m)%253DE(k%252Cm)%257C%257CE(k'%252Cm)?scale=1" alt="LaTeX: E'((k,k'), m)=E(k,m)||E(k',m)" data-equation-content="E'((k,k'), m)=E(k,m)||E(k',m)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;k&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;k&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3630">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=(c,c):c\leftarrow E(k,m)" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253D(c%252Cc)%253Ac%255Cleftarrow%2520E(k%252Cm)?scale=1" alt="LaTeX: E'(k,m)=(c,c):c\leftarrow E(k,m)" data-equation-content="E'(k,m)=(c,c):c\leftarrow E(k,m)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;:&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;←&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9207">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="E'(k,m)=c||par(c):c←E(k,m)" src="https://canvas.instructure.com/equation_images/E'(k%252Cm)%253Dc%257C%257Cpar(c)%253Ac%25E2%2586%2590E(k%252Cm)?scale=1" alt="LaTeX: E'(k,m)=c||par(c):c←E(k,m)" data-equation-content="E'(k,m)=c||par(c):c←E(k,m)" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo stretchy="false"&gt;|&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mi&gt;p&lt;/mi&gt;
+  &lt;mi&gt;a&lt;/mi&gt;
+  &lt;mi&gt;r&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;:&lt;/mo&gt;
+  &lt;mi&gt;c&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;←&lt;/mo&gt;
+  &lt;mi&gt;E&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;k&lt;/mi&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;mi&gt;m&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+&lt;/math&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">8548</varequal>
+                <not>
+                  <varequal respident="response1">3890</varequal>
+                </not>
+                <varequal respident="response1">8595</varequal>
+                <varequal respident="response1">7169</varequal>
+                <not>
+                  <varequal respident="response1">11</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">5458</varequal>
+                </not>
+                <varequal respident="response1">4941</varequal>
+                <varequal respident="response1">3630</varequal>
+                <varequal respident="response1">9207</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

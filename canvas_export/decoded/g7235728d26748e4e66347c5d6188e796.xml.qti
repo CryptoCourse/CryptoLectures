@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g7235728d26748e4e66347c5d6188e796" title="Электронное дз 4">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>240</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g9053e7049474a46b1eb5e7ee3abb9c52" title="4.1.a">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g31d608e7f232b97d534d23d98de79d75</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( F \) – PRF на \( \{0,1\}^n, \{0,1\}^n, Y \).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Докажите или опровергните утверждение:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="F:∀k,x,c∈\{0,1\}^n  F(k,x⊕c)=F(k,x)⊕c,F" src="https://canvas.instructure.com/equation_images/F%253A%25E2%2588%2580k%252Cx%252Cc%25E2%2588%2588%255C%257B0%252C1%255C%257D%255En%2520%2520F(k%252Cx%25E2%258A%2595c)%253DF(k%252Cx)%25E2%258A%2595c%252CF?scale=1" alt="LaTeX: F:∀k,x,c∈\{0,1\}^n  F(k,x⊕c)=F(k,x)⊕c,F" data-equation-content="F:∀k,x,c∈\{0,1\}^n  F(k,x⊕c)=F(k,x)⊕c,F" data-ignore-a11y-check=""&gt;- может быть стойкой.&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g75bbfc6729a7c02270c994aa23a85049" title="4.2.b">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gbebfe93b548e93181f938964210ee628</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( F \) – PRF на \( \{0,1\}^n, \{0,1\}^n, Y \).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Докажите или опровергните утверждение:&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="F:∀k,x,c∈\{0,1\}^n  F(k⊕c,x)=F(k,x)⊕c,F" src="https://canvas.instructure.com/equation_images/F%253A%25E2%2588%2580k%252Cx%252Cc%25E2%2588%2588%255C%257B0%252C1%255C%257D%255En%2520%2520F(k%25E2%258A%2595c%252Cx)%253DF(k%252Cx)%25E2%258A%2595c%252CF?scale=1" alt="LaTeX: F:∀k,x,c∈\{0,1\}^n  F(k⊕c,x)=F(k,x)⊕c,F" data-equation-content="F:∀k,x,c∈\{0,1\}^n  F(k⊕c,x)=F(k,x)⊕c,F" data-ignore-a11y-check=""&gt;- не может быть стойкой&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="gbeaf433a8efccef48a241101ba214ef3" title="4.2">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5400,7738,5381,1284,7785,760,8229,9856</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g3941f1f24ac4ece73286f74f2b5591c7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения:&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="5400">
+                <material>
+                  <mattext texttype="text/plain">Любой стойкий блочных шифр семантически стойкий для любых сообщений имеющих размер, кратный длине блока</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7738">
+                <material>
+                  <mattext texttype="text/plain">Если блочный шифр имеет ключ длины 128 бит, его параметр стойкости не может превосходить 128 бит</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5381">
+                <material>
+                  <mattext texttype="text/plain">Если блочный шифр имеет ключ длины 128 бит, его параметр стойкости не может быть ниже 64 бит</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1284">
+                <material>
+                  <mattext texttype="text/plain">Возможно существование стойкого блочного шифра, не стойкого к восстановлению ключа</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7785">
+                <material>
+                  <mattext texttype="text/plain">Стойкость блочного шифра можно свести к стойкости его функции зашифрования, как псевдослучайной подстановки</mattext>
+                </material>
+              </response_label>
+              <response_label ident="760">
+                <material>
+                  <mattext texttype="text/plain">Блочной шифр в режиме ECB является шифром подстановки</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8229">
+                <material>
+                  <mattext texttype="text/plain">Если стойкий блочный шифр имеет ключ длины 128 бит и размер блока 128 бит то он является абсолютно стойким.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9856">
+                <material>
+                  <mattext texttype="text/plain">Невозможно построить абсолютно стойкий шифр с длинной ключа 128 бит на основе блочного шифра с длинной ключа 128 бит, размером блока 64 бита для сообщений длины 256 бит.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">5400</varequal>
+                </not>
+                <varequal respident="response1">7738</varequal>
+                <not>
+                  <varequal respident="response1">5381</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">1284</varequal>
+                </not>
+                <varequal respident="response1">7785</varequal>
+                <varequal respident="response1">760</varequal>
+                <not>
+                  <varequal respident="response1">8229</varequal>
+                </not>
+                <varequal respident="response1">9856</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g228ba36860524c78e6f9265898c8127f" title="4.3">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ga0d9ce71b24dd5a2adac19f03ca1ed1d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( F:K\times X \rightarrow Y \) – стойкая PRF,&amp;nbsp; \( Y=\{0,1\}^n \). Для некоторого параметра \( l&amp;lt;n \) рассмотрим \( F':K \times X \rightarrow Y', Y' = \{0,1\}^l: F'(k,x)=F(k,x)[0,...,l-1] \).&amp;nbsp; Является ли \(&amp;nbsp; F'\)&amp;nbsp; - стойкой PRF? Докажите&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g084bd49822fc25add6a92f236732e922" title="4.4">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g4e628ba229d1101a7c172c9287ad10ed</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Рассмотрим игру на семантическую стойкость для случайных сообщений: вместо выбора произвольных сообщений противник может выбрать сообщения только случайно из множества сообщений. В остальном игра идентично обычной игре на семантическую стойкость. Являются ли игры эквивалентными? (записать в ответ). Если нет – выясните какая из них является более строгой, докажите это сведением, продемонстрируйте пример шифра, стойкого в одной из моделей семантической стойкости, и не стойкого в другой. Если игры эквивалентны – формально докажите это.&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g3eaa203a5695ed07c65bd12a60ebd853" title="4.5">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>5.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>3215,5220,9349,1260,3177,5347,3452,7402,3915</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g5e43c1bd713eeef567162d74787e8b69</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть &lt;img class="equation_image" title="F:K×X→Y" src="https://canvas.instructure.com/equation_images/F%253AK%25C3%2597X%25E2%2586%2592Y?scale=1" alt="LaTeX: F:K×X→Y" data-equation-content="F:K×X→Y" data-ignore-a11y-check=""&gt; – стойкая PRF, &lt;img class="equation_image" title="K=X=Y=\{0,1\}^n" src="https://canvas.instructure.com/equation_images/K%253DX%253DY%253D%255C%257B0%252C1%255C%257D%255En?scale=1" alt="LaTeX: K=X=Y=\{0,1\}^n" data-equation-content="K=X=Y=\{0,1\}^n" data-ignore-a11y-check=""&gt;. Какие из следующих алгоритмов является стойкими PRF? &lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="3215">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,x)=F(k,x)||0" src="https://canvas.instructure.com/equation_images/F'(k%252Cx)%253DF(k%252Cx)%257C%257C0?scale=1" alt="LaTeX: F'(k,x)=F(k,x)||0" data-equation-content="F'(k,x)=F(k,x)||0" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5220">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,x)=F(k,x)⊕1^n" src="https://canvas.instructure.com/equation_images/F'(k%252Cx)%253DF(k%252Cx)%25E2%258A%25951%255En?scale=1" alt="LaTeX: F'(k,x)=F(k,x)⊕1^n" data-equation-content="F'(k,x)=F(k,x)⊕1^n" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9349">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,(x,y))=F(k,x)⊕F(k,y)" src="https://canvas.instructure.com/equation_images/F'(k%252C(x%252Cy))%253DF(k%252Cx)%25E2%258A%2595F(k%252Cy)?scale=1" alt="LaTeX: F'(k,(x,y))=F(k,x)⊕F(k,y)" data-equation-content="F'(k,(x,y))=F(k,x)⊕F(k,y)" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1260">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F' (k,x)=F(k,x)⊕x." src="https://canvas.instructure.com/equation_images/F'%2520(k%252Cx)%253DF(k%252Cx)%25E2%258A%2595x.?scale=1" alt="LaTeX: F' (k,x)=F(k,x)⊕x." data-equation-content="F' (k,x)=F(k,x)⊕x." data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3177">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F' ((k_1,k_2),x)=F(k_1,x)⊕F(k_2,x)" src="https://canvas.instructure.com/equation_images/F'%2520((k_1%252Ck_2)%252Cx)%253DF(k_1%252Cx)%25E2%258A%2595F(k_2%252Cx)?scale=1" alt="LaTeX: F' ((k_1,k_2),x)=F(k_1,x)⊕F(k_2,x)" data-equation-content="F' ((k_1,k_2),x)=F(k_1,x)⊕F(k_2,x)" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5347">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,x)=F(k,x)||F(k,x⊕1^n)" src="https://canvas.instructure.com/equation_images/F'(k%252Cx)%253DF(k%252Cx)%257C%257CF(k%252Cx%25E2%258A%25951%255En)?scale=1" alt="LaTeX: F'(k,x)=F(k,x)||F(k,x⊕1^n)" data-equation-content="F'(k,x)=F(k,x)||F(k,x⊕1^n)" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3452">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,x)=F(F(k,0^n ),x)." src="https://canvas.instructure.com/equation_images/F'(k%252Cx)%253DF(F(k%252C0%255En%2520)%252Cx).?scale=1" alt="LaTeX: F'(k,x)=F(F(k,0^n ),x)." data-equation-content="F'(k,x)=F(F(k,0^n ),x)." data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7402">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,x)=F(F(k,0^n ),x)||F(k,x)" src="https://canvas.instructure.com/equation_images/F'(k%252Cx)%253DF(F(k%252C0%255En%2520)%252Cx)%257C%257CF(k%252Cx)?scale=1" alt="LaTeX: F'(k,x)=F(F(k,0^n ),x)||F(k,x)" data-equation-content="F'(k,x)=F(F(k,0^n ),x)||F(k,x)" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3915">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="F'(k,x)=F(k,x)||F(k,F(k,x))" src="https://canvas.instructure.com/equation_images/F'(k%252Cx)%253DF(k%252Cx)%257C%257CF(k%252CF(k%252Cx))?scale=1" alt="LaTeX: F'(k,x)=F(k,x)||F(k,F(k,x))" data-equation-content="F'(k,x)=F(k,x)||F(k,F(k,x))" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">3215</varequal>
+                </not>
+                <varequal respident="response1">5220</varequal>
+                <not>
+                  <varequal respident="response1">9349</varequal>
+                </not>
+                <varequal respident="response1">1260</varequal>
+                <varequal respident="response1">3177</varequal>
+                <not>
+                  <varequal respident="response1">5347</varequal>
+                </not>
+                <varequal respident="response1">3452</varequal>
+                <not>
+                  <varequal respident="response1">7402</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3915</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

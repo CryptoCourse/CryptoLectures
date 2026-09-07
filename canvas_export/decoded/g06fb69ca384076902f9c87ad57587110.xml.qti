@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g06fb69ca384076902f9c87ad57587110" title="Электронное дз 6">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>240</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g349bce476265e6697dcadcd3862c4dc8" title="6.1.a">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gfe8f537d024db48d09cf9be5b8a94214</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;В некоторой криптосистеме используется блочный шифр в детерминированном режиме CTR.&lt;/p&gt;
+&lt;p&gt;Предполагая стойкость блочного шифра с функцией зашифрования \( E \), является ли описанная криптосистема стойкой при &lt;strong&gt;одноразовом использовании ключа&lt;/strong&gt; в теоретическом (предельном) смысле? (записать в ответ да или нет) Почему? (на доп листах)&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g0c7beaa62e4738ba7cde0813d40f6f8f" title="6.1.b">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g14c77647d10189aef02db51d672bf18e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;В некоторой криптосистеме используется блочный шифр в детерминированном режиме CTR.&lt;/p&gt;
+&lt;p&gt;Предполагая стойкость блочного шифра с функцией зашифрования \( E \), является ли описанная криптосистема стойкой при &lt;strong&gt;многоразовом использовании ключа (ключ используется для шифрования нескольких сообщений)&lt;/strong&gt; в теоретическом (предельном) смысле? (записать в ответ да или нет) Почему? (на доп листах)&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g6e3518dd307cb2d93d9887e95a6d1fae" title="6.1.с">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g9a9d5262ae9e59d0c53c645b3666a8ce</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;В некоторой криптосистеме используется блочный шифр в детерминированном режиме CTR.&lt;/p&gt;
+&lt;p&gt;Пусть в качестве \( E \) используется PRP, с длинной ключа 128 бит, размер блока 128 бит, параметр стойкости принять равным 128 бит.&lt;/p&gt;
+&lt;p&gt;Пусть имеется защищенный канал связи с пропускной способностью 100 mebibit/s, в котором непрерывно шифруются сообщения.&amp;nbsp; Оценить вероятность (степенью 2) успешной атаки на криптосистему в течении одного года, при условии, что симметричный ключ не меняется.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;* при вычислениях полагать что шифруется единственное сообщение максимальной длинны, которое может быть передано в указанном канале за заданное время.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g37643c8424c5ac7ffa919db109e68e88" title="6.1.d">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gf5d4b73b9ec7564c0ca84e1d805d2d56</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;В некоторой криптосистеме используется блочный шифр в детерминированном режиме CTR.&lt;/p&gt;
+&lt;p&gt;Пусть в качестве \( E \)&amp;nbsp; используется PRP, с длинной ключа 128 бит, размер блока 64 бит, параметр стойкости принять равным 120 бит.&lt;/p&gt;
+&lt;p&gt;Пусть имеется защищенный канал связи с пропускной способностью 100 mebibit/s, в котором непрерывно шифруются сообщения. Оценить необходимую частоту смены симметричного ключа, при заданной вероятности атаки равной \( 2^{-7} \).&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;* при вычислениях полагать что шифруется единственное сообщение максимальной длинны, которое может быть передано в указанном канале за заданное время.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g4a101fde16d360137f24de70116ffda8" title="2">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gec408f2d8c165c7d56e6e68221ec391b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;После анализа симметричной криптосистемы была получена следующая оценка стойкости в сведении к псевдослучайной функции:&lt;/p&gt;
+&lt;p&gt;$$Adv[A,C]≤tn/N(tQ/N+Adv_{prf}[B,E])$$&lt;/p&gt;
+&lt;p&gt;где&amp;nbsp; \( E \)– функция зашифрования блочного шифра,&amp;nbsp; \( Q \) – максимальное число обращений к криптосистеме при фиксированном ключе,&amp;nbsp; \(N=2^n\) – размер блока PRF, \(t \) – размер выхода криптосистемы.&lt;/p&gt;
+&lt;p&gt;Предполагая стойкость блочного шифра с функцией зашифрования \(E\), является ли описанная криптосистема стойкой в теоретическом (предельном) смысле? (записать в ответ да или нет) Почему? (на доп листах)&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="gf14fed210907ce72ba4e048b972890be" title="3">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6256,6232,4874,2817,1784,8684,3755,3993</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ge0621ff9cda9b8640cc94502e8124512</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения:&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="6256">
+                <material>
+                  <mattext texttype="text/plain">Любая PRP является PRF</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6232">
+                <material>
+                  <mattext texttype="text/plain">Любая PRF является PRP</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4874">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая PRF является PRP</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2817">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая PRP является стойкой PRF</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1784">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая PRP со сверх-полиномиальным образом является стойкой PRF</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8684">
+                <material>
+                  <mattext texttype="text/plain">Любой стойкий блочный шифр является стойкой PRF</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3755">
+                <material>
+                  <mattext texttype="text/plain">Любой семантически стойкий шифр (одноразовое использование ключа) должен быть детерминированным</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3993">
+                <material>
+                  <mattext texttype="text/plain">Любой CPA стойкий шифр является семантически стойким при одноразовом использовании ключа.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">6256</varequal>
+                <not>
+                  <varequal respident="response1">6232</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">4874</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">2817</varequal>
+                </not>
+                <varequal respident="response1">1784</varequal>
+                <not>
+                  <varequal respident="response1">8684</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3755</varequal>
+                </not>
+                <varequal respident="response1">3993</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

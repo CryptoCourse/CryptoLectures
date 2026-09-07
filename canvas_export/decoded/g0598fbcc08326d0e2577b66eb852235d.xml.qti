@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g0598fbcc08326d0e2577b66eb852235d" title="Электронное дз 2">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>180</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g073e607fee3ad07bdd16147c2bf1b5e1" title="2.1.a">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=7" src="https://canvas.instructure.com/equation_images/f(n)%253D7?scale=1" alt="LaTeX: f(n)=7" data-equation-content="f(n)=7" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g99d499393c150ab49b5ba4d1376766c1" title="2.1.b">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=000000045" src="https://canvas.instructure.com/equation_images/f(n)%253D000000045?scale=1" alt="LaTeX: f(n)=000000045" data-equation-content="f(n)=000000045" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g359252542c934a6b86551138d0900fe5" title="2.1.c">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=1024^{128}" src="https://canvas.instructure.com/equation_images/f(n)%253D1024%255E%257B128%257D?scale=1" alt="LaTeX: f(n)=1024^{128}" data-equation-content="f(n)=1024^{128}" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gf52f4e18cf2301c132f102578d53d3ba" title="2.1.d">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="n^{-16n}" src="https://canvas.instructure.com/equation_images/n%255E%257B-16n%257D?scale=1" alt="LaTeX: n^{-16n}" data-equation-content="n^{-16n}" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">4625</varequal>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb5fe3bb820f4ae9702998c4dc6ccfa03" title="2.1.e">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=n^{-2}" src="https://canvas.instructure.com/equation_images/f(n)%253Dn%255E%257B-2%257D?scale=1" alt="LaTeX: f(n)=n^{-2}" data-equation-content="f(n)=n^{-2}" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g2ef85475d89e577928eb8e537ecba500" title="2.1.f">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=1/(nlog(n))" src="https://canvas.instructure.com/equation_images/f(n)%253D1%252F(nlog(n))?scale=1" alt="LaTeX: f(n)=1/(nlog(n))" data-equation-content="f(n)=1/(nlog(n))" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g88fe2ad31ddbcc1ce9323505a6c6a65a" title="2.1.g">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=n!" src="https://canvas.instructure.com/equation_images/f(n)%253Dn!?scale=1" alt="LaTeX: f(n)=n!" data-equation-content="f(n)=n!" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <varequal respident="response1">3403</varequal>
+                <not>
+                  <varequal respident="response1">2651</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g42c136428dde89f9e1636d0a12707c2b" title="2.1.h">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=n^{-1024}+2^{-0.00000000001*log(n)}" src="https://canvas.instructure.com/equation_images/f(n)%253Dn%255E%257B-1024%257D%252B2%255E%257B-0.00000000001*log(n)%257D?scale=1" alt="LaTeX: f(n)=n^{-1024}+2^{-0.00000000001*log(n)}" data-equation-content="f(n)=n^{-1024}+2^{-0.00000000001*log(n)}" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3403</varequal>
+                </not>
+                <varequal respident="response1">2651</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g0a56ea54fb339726c5098e52cd19a6c1" title="2.1.i">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4625,3403,2651</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g2325c9319fd4ce3320dc2cbd7f76c267</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Является ли величина (в предельном смысле):&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" title="f(n)=n^{n^n}" src="https://canvas.instructure.com/equation_images/f(n)%253Dn%255E%257Bn%255En%257D?scale=1" alt="LaTeX: f(n)=n^{n^n}" data-equation-content="f(n)=n^{n^n}" data-ignore-a11y-check=""&gt;&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4625">
+                <material>
+                  <mattext texttype="text/plain">Пренебрежимо малой</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3403">
+                <material>
+                  <mattext texttype="text/plain">Сверх-полиномиальной</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2651">
+                <material>
+                  <mattext texttype="text/plain">Полиномиально-ограниченной</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4625</varequal>
+                </not>
+                <varequal respident="response1">3403</varequal>
+                <not>
+                  <varequal respident="response1">2651</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="gb7b3297b901feb0b88b4f02502dc620e" title="2.3">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>8.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8061,2864,4217,7451,4701,3095,5841,680</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g1bcbac376af8dafb0036119c5b762398</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="8061">
+                <material>
+                  <mattext texttype="text/plain">Если алгоритм противника A в некоторой игре против Ε эффективный, то величина Adv[A,Ε] – пренебрежимо малая</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2864">
+                <material>
+                  <mattext texttype="text/plain">Любая пренебрежимо малая – полиномиально ограниченная на бесконечности</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4217">
+                <material>
+                  <mattext texttype="text/plain">Любая полиномиально ограниченная – пренебрежимо малая</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7451">
+                <material>
+                  <mattext texttype="text/plain">Аддитивный одноразовый блокнот переменной длины – семантически стойкий шифр</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4701">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Пусть A алгоритм от параметра λ. На вход алгоритма подали вход длинной 2^λ, он детерминировано выполнился за время t(λ), не являющимся полиномиально ограниченным от λ. A – точно не эффективный.&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3095">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Пусть A алгоритм от параметра λ. На вход алгоритма подали вход длинной λ, он детерминированно выполнился за время &lt;img class="equation_image" title="t(λ)=λ^{156}+λ^{56} log⁡(λ^{-1} log⁡(λ^{65.6} )+74" src="https://canvas.instructure.com/equation_images/t(%25CE%25BB)%253D%25CE%25BB%255E%257B156%257D%252B%25CE%25BB%255E%257B56%257D%2520log%25E2%2581%25A1(%25CE%25BB%255E%257B-1%257D%2520log%25E2%2581%25A1(%25CE%25BB%255E%257B65.6%257D%2520)%252B74?scale=1" alt="LaTeX: t(λ)=λ^{156}+λ^{56} log⁡(λ^{-1} log⁡(λ^{65.6} )+74" data-equation-content="t(λ)=λ^{156}+λ^{56} log⁡(λ^{-1} log⁡(λ^{65.6} )+74" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;mi&gt;t&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo&gt;λ&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mo&gt;λ&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mn&gt;156&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/msup&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mo&gt;λ&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mn&gt;56&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/msup&gt;
+  &lt;mi&gt;l&lt;/mi&gt;
+  &lt;mi&gt;o&lt;/mi&gt;
+  &lt;mi&gt;g&lt;/mi&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo&gt;⁡&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mo&gt;λ&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mo&gt;−&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/msup&gt;
+  &lt;mi&gt;l&lt;/mi&gt;
+  &lt;mi&gt;o&lt;/mi&gt;
+  &lt;mi&gt;g&lt;/mi&gt;
+  &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+    &lt;mo&gt;⁡&lt;/mo&gt;
+  &lt;/mrow&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mo&gt;λ&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mrow class="MJX-TeXAtom-ORD"&gt;
+      &lt;mn&gt;65.6&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;74&lt;/mn&gt;
+&lt;/math&gt;&lt;/span&gt;, A – точно эффективный.&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5841">
+                <material>
+                  <mattext texttype="text/plain">Любой эффективный алгоритм – полиномиально ограничен памятью</mattext>
+                </material>
+              </response_label>
+              <response_label ident="680">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Если G и G' на (S,T) стойкие PRG, то для &lt;img class="equation_image" title="r\leftarrow G(s),r'\leftarrow G'(s) r' \approx_p r" src="https://canvas.instructure.com/equation_images/r%255Cleftarrow%2520G(s)%252Cr'%255Cleftarrow%2520G'(s)%2520r'%2520%255Capprox_p%2520r?scale=1" alt="LaTeX: r\leftarrow G(s),r'\leftarrow G'(s) r' \approx_p r" data-equation-content="r\leftarrow G(s),r'\leftarrow G'(s) r' \approx_p r" data-ignore-a11y-check=""&gt;&lt;span class="hidden-readable"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+  &lt;mi&gt;r&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;←&lt;/mo&gt;
+  &lt;mi&gt;G&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;s&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;mo&gt;,&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;r&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;←&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;G&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+  &lt;mi&gt;s&lt;/mi&gt;
+  &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+  &lt;msup&gt;
+    &lt;mi&gt;r&lt;/mi&gt;
+    &lt;mo&gt;′&lt;/mo&gt;
+  &lt;/msup&gt;
+  &lt;msub&gt;
+    &lt;mo&gt;≈&lt;/mo&gt;
+    &lt;mi&gt;p&lt;/mi&gt;
+  &lt;/msub&gt;
+  &lt;mi&gt;r&lt;/mi&gt;
+&lt;/math&gt;&lt;/span&gt; (последовательности статистически неразличимы).&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">8061</varequal>
+                </not>
+                <varequal respident="response1">2864</varequal>
+                <not>
+                  <varequal respident="response1">4217</varequal>
+                </not>
+                <varequal respident="response1">7451</varequal>
+                <not>
+                  <varequal respident="response1">4701</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3095</varequal>
+                </not>
+                <varequal respident="response1">5841</varequal>
+                <varequal respident="response1">680</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g5e3b8d274af6a7e498ea4e578fb64730" title="2.4">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>numerical_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1495</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb4aa114c299adb052038338681b06cf0</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;ol&gt;
+&lt;li&gt;Пусть &lt;img class="equation_image" title="G:K\rightarrow\{0,1\}^n" src="https://canvas.instructure.com/equation_images/G%253AK%255Crightarrow%255C%257B0%252C1%255C%257D%255En?scale=1" alt="LaTeX: G:K\rightarrow\{0,1\}^n" data-equation-content="G:K\rightarrow\{0,1\}^n" data-ignore-a11y-check=""&gt; – стойкий PRG. Пусть &lt;img class="equation_image" title="G'(k_1,k_2)=G(k_1)\wedge G(k_2)" src="https://canvas.instructure.com/equation_images/G'(k_1%252Ck_2)%253DG(k_1)%255Cwedge%2520G(k_2)?scale=1" alt="LaTeX: G'(k_1,k_2)=G(k_1)\wedge G(k_2)" data-equation-content="G'(k_1,k_2)=G(k_1)\wedge G(k_2)" data-ignore-a11y-check=""&gt;, где &lt;img class="equation_image" title="\wedge" src="https://canvas.instructure.com/equation_images/%255Cwedge?scale=1" alt="LaTeX: \wedge" data-equation-content="\wedge" data-ignore-a11y-check=""&gt; - побитовый AND. Рассмотрим следующий статистический тест на &lt;img class="equation_image" title="\{0,1\}^n" src="https://canvas.instructure.com/equation_images/%255C%257B0%252C1%255C%257D%255En?scale=1" alt="LaTeX: \{0,1\}^n" data-equation-content="\{0,1\}^n" data-ignore-a11y-check=""&gt;: &lt;img class="equation_image" title="A(x)=LSB(x)" src="https://canvas.instructure.com/equation_images/A(x)%253DLSB(x)?scale=1" alt="LaTeX: A(x)=LSB(x)" data-equation-content="A(x)=LSB(x)" data-ignore-a11y-check=""&gt;, где &lt;br&gt;&lt;img class="equation_image" title="LSB(x)" src="https://canvas.instructure.com/equation_images/LSB(x)?scale=1" alt="LaTeX: LSB(x)" data-equation-content="LSB(x)" data-ignore-a11y-check=""&gt; - получает последний бит вектора &lt;img class="equation_image" title="x\in\{0,1\}^n" src="https://canvas.instructure.com/equation_images/x%255Cin%255C%257B0%252C1%255C%257D%255En?scale=1" alt="LaTeX: x\in\{0,1\}^n" data-equation-content="x\in\{0,1\}^n" data-ignore-a11y-check=""&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Каково преимущество алгоритма A?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="Decimal">
+              <response_label ident="answer1"/>
+            </render_fib>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <or>
+                <varequal respident="response1">0.25</varequal>
+                <and>
+                  <vargte respident="response1">0.25</vargte>
+                  <varlte respident="response1">0.25</varlte>
+                </and>
+              </or>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g7642ab581639347e3f0ccbe905665675" title="2.5">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>2.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gc07b8fba05c5654f88b7948df181082d</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть &lt;img class="equation_image" title="(E,D)" src="https://canvas.instructure.com/equation_images/(E%252CD)?scale=1" alt="LaTeX: (E,D)" data-equation-content="(E,D)" data-ignore-a11y-check=""&gt; – абсолютно стойкий шифр на &amp;nbsp;&lt;img class="equation_image" title="(K,M,C):M=C,K=\{0,1\}^n" src="https://canvas.instructure.com/equation_images/(K%252CM%252CC)%253AM%253DC%252CK%253D%255C%257B0%252C1%255C%257D%255En?scale=1" alt="LaTeX: (K,M,C):M=C,K=\{0,1\}^n" data-equation-content="(K,M,C):M=C,K=\{0,1\}^n" data-ignore-a11y-check=""&gt;&lt;/p&gt;
+&lt;p&gt;Является ли &lt;img class="equation_image" title=" (E',D' ):E'(k_1,k_2 ),m)=E(k_1,k_2)||E(k_2,m)" src="https://canvas.instructure.com/equation_images/%2520(E'%252CD'%2520)%253AE'(k_1%252Ck_2%2520)%252Cm)%253DE(k_1%252Ck_2)%257C%257CE(k_2%252Cm)?scale=1" alt="LaTeX:  (E',D' ):E'(k_1,k_2 ),m)=E(k_1,k_2)||E(k_2,m)" data-equation-content=" (E',D' ):E'(k_1,k_2 ),m)=E(k_1,k_2)||E(k_2,m)" data-ignore-a11y-check=""&gt; абсолютно стойким шифром?&lt;/p&gt;
+&lt;p&gt;Докажите, или продемонстрируйте атаку.&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g04901c9f4511bcf7fe0178dcffd313f0" title="2.6">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>9.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4131,486,4794,2830,6033,6387,8475,3315,5630</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gb8e0c0c1120dab0aaef8a759217b28d7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть &lt;img class="equation_image" title="G:\{0,1\}^s\rightarrow \{0,1\}^n" src="https://canvas.instructure.com/equation_images/G%253A%255C%257B0%252C1%255C%257D%255Es%255Crightarrow%2520%255C%257B0%252C1%255C%257D%255En?scale=1" alt="LaTeX: G:\{0,1\}^s\rightarrow \{0,1\}^n" data-equation-content="G:\{0,1\}^s\rightarrow \{0,1\}^n" data-ignore-a11y-check=""&gt; – стойкий PRG. Какие из следующих алгоритмов является стойкими PRG?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="4131">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k)=G(k)||G(k)" src="https://canvas.instructure.com/equation_images/G'(k)%253DG(k)%257C%257CG(k)?scale=1" alt="LaTeX: G'(k)=G(k)||G(k)" data-equation-content="G'(k)=G(k)||G(k)" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="486">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k)=G(k)\oplus 1^n" src="https://canvas.instructure.com/equation_images/G'(k)%253DG(k)%255Coplus%25201%255En?scale=1" alt="LaTeX: G'(k)=G(k)\oplus 1^n" data-equation-content="G'(k)=G(k)\oplus 1^n" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4794">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k)=rev(G(k))" src="https://canvas.instructure.com/equation_images/G'(k)%253Drev(G(k))?scale=1" alt="LaTeX: G'(k)=rev(G(k))" data-equation-content="G'(k)=rev(G(k))" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2830">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k)=G(k)||0" src="https://canvas.instructure.com/equation_images/G'(k)%253DG(k)%257C%257C0?scale=1" alt="LaTeX: G'(k)=G(k)||0" data-equation-content="G'(k)=G(k)||0" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6033">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k)=G(0)" src="https://canvas.instructure.com/equation_images/G'(k)%253DG(0)?scale=1" alt="LaTeX: G'(k)=G(0)" data-equation-content="G'(k)=G(0)" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6387">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k,k' )=G(k)∨G(k' ) " src="https://canvas.instructure.com/equation_images/G'(k%252Ck'%2520)%253DG(k)%25E2%2588%25A8G(k'%2520)%2520?scale=1" alt="LaTeX: G'(k,k' )=G(k)∨G(k' ) " data-equation-content="G'(k,k' )=G(k)∨G(k' ) " data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8475">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k,k')=G(k)||G(k')" src="https://canvas.instructure.com/equation_images/G'(k%252Ck')%253DG(k)%257C%257CG(k')?scale=1" alt="LaTeX: G'(k,k')=G(k)||G(k')" data-equation-content="G'(k,k')=G(k)||G(k')" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3315">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G'(k,k' )=G(k)⊕G(k')" src="https://canvas.instructure.com/equation_images/G'(k%252Ck'%2520)%253DG(k)%25E2%258A%2595G(k')?scale=1" alt="LaTeX: G'(k,k' )=G(k)⊕G(k')" data-equation-content="G'(k,k' )=G(k)⊕G(k')" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5630">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img class="equation_image" title="G' (k,k')=k||G(k')" src="https://canvas.instructure.com/equation_images/G'%2520(k%252Ck')%253Dk%257C%257CG(k')?scale=1" alt="LaTeX: G' (k,k')=k||G(k')" data-equation-content="G' (k,k')=k||G(k')" data-ignore-a11y-check=""&gt;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">4131</varequal>
+                </not>
+                <varequal respident="response1">486</varequal>
+                <varequal respident="response1">4794</varequal>
+                <not>
+                  <varequal respident="response1">2830</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">6033</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">6387</varequal>
+                </not>
+                <varequal respident="response1">8475</varequal>
+                <varequal respident="response1">3315</varequal>
+                <varequal respident="response1">5630</varequal>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

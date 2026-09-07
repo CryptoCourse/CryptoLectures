@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="gdfde8776a31de9fe34bb2bdd968f88c6" title="Электронное дз 7">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>qmd_timelimit</fieldlabel>
+        <fieldentry>240</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="g436c1d5734b6fa65d9ecd21664e3d64f" title="7.1">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>10.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8188,900,7355,8495,5008,1963,9136,471,4739,8156,9386</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g6da3427172008fc3170fa4e76d8b1a55</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Выберите верные утверждения&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="8188">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая PRF даёт стойкий MAC</mattext>
+                </material>
+              </response_label>
+              <response_label ident="900">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая PRF, с сверх полиномиальной областью значений даёт стойкий MAC</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7355">
+                <material>
+                  <mattext texttype="text/plain">Любая стойкая PRP, с сверх полиномиальной областью значений даёт стойкий MAC</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8495">
+                <material>
+                  <mattext texttype="text/plain">Стойкая PRF с сверх полиномиальной областью значений является более сильным определением, чем стойкий MAC</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5008">
+                <material>
+                  <mattext texttype="text/plain">На любой MAC  на (K,M,T) возможна теоретическая атака сложностью O(|T|)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1963">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;На любой CBC-MAC на \( (K,M,T) \) возможна теоретическая атака сложностью \( O(\sqrt{|T|}) \)&amp;nbsp;&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9136">
+                <material>
+                  <mattext texttype="text/plain">CMAC требует использования трех независимых случайных ключей</mattext>
+                </material>
+              </response_label>
+              <response_label ident="471">
+                <material>
+                  <mattext texttype="text/plain">Любое беспрификсное кодирование увеличивает длину сообщения</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4739">
+                <material>
+                  <mattext texttype="text/plain">Стойкий MAC обеспечивает целостность сообщений при передаче</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8156">
+                <material>
+                  <mattext texttype="text/plain">Стойкий MAC обеспечивает аутентичность источника информации (т.е. гарантирует, что только имеющий секретный ключ мог отправить это сообщение)</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9386">
+                <material>
+                  <mattext texttype="text/plain">Добавление длины сообщения в конец сообщения является беспрификсным кодированием</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <not>
+                  <varequal respident="response1">8188</varequal>
+                </not>
+                <varequal respident="response1">900</varequal>
+                <varequal respident="response1">7355</varequal>
+                <varequal respident="response1">8495</varequal>
+                <varequal respident="response1">5008</varequal>
+                <varequal respident="response1">1963</varequal>
+                <varequal respident="response1">9136</varequal>
+                <varequal respident="response1">471</varequal>
+                <varequal respident="response1">4739</varequal>
+                <varequal respident="response1">8156</varequal>
+                <not>
+                  <varequal respident="response1">9386</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="g4932b4773744c9f13fd79d480cc15983" title="7.2">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g24221747f4f0a50cbf381509e883942c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Рассмотрим ECBC MAC. Вместо использования нулевого IV будем использовать случайный IV для каждого сообщения и включать его в состав итоговой метки. Т.е. \( t=IV \mathbin\Vert MAC(k,m) \) . Данная система не является стойким MAC.&lt;/p&gt;
+&lt;p&gt;Задача – от имени противника получить верный MAC для сообщения \( 0^n \), где \( n \)– размер блока PRF.&lt;/p&gt;
+&lt;p&gt;Является ли данный MAC стойкой &lt;strong&gt;беспрификсной&lt;/strong&gt; PRF?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g7f72c466e23cbeafb99bdf2359d1bb61" title="7.3">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>file_upload_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>4.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>g7eabbc83577bc2e77396bdeb6bc8f3db</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Alice отправляет данные 6 получателям \( B_1,...,B_6 \). Задача – обеспечить целостность. Alice использует MAC. Использование одного ключа для всех получателей не обеспечивает целостность, так как если противником является один из получателей, то он может подделать MAC для любого сообщения, и рассылать сообщения от имени Alice. Вместо этого Alice использует 4 секретных ключа \( S=\{k_1,...,k_4\} \). Alice пересылает по защищенному каналу некое подмножество \( S_i \) каждому получателю \( B_i \). Пересылая затем каждое сообщение, она включает также 4 кода аутентичности для каждого сообщения, выработанных на этих ключах. Каждый пользователь \( B_i \)&amp;nbsp; считает пакет целостным, если для всех его ключей \( S_i \) совпали коды аутентичности (те кода, которые не соответствуют ключам пользователя им игнорируются).&lt;/p&gt;
+&lt;p&gt;Как Alice должна распределить ключи между пользователями?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+        </resprocessing>
+      </item>
+      <item ident="g3688f6971e516190d3683517a8595976" title="7.4.l">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_answers_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>11.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1426,5518,6020,3475,6935,3404,8729,6986,4620,988,8426</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>gdd61d5857fec5c224fb201cea305fde8</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Пусть \( (S,V) \) – стойкий MAC на \( (K,M,T),M=\{0,1\}^n, T=\{0,1\}^{128} \). Какой их описанных MAC является стойким? Формально докажите или опровергните стойкость. Если явно не указан алгоритм проверки \( V \) – считать MAC детерминированным.&lt;/p&gt;
+&lt;p&gt;\( a[i,...,j] \). – взятие подверктора вектора \( a \) с индексами от \( i \) до \( j \), \( a[i...] \) – взятие подвектора вектора \( a \) начиная с индекса \( i \) и до длины вектора .&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="1426">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=S(k,m||m),V' (k,m,t)=V(k,m||m,t) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5518">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=S(k,m), \)&lt;br&gt;\( V' (k,m,t,)=[V(k,m,t)=1или V(k,m\oplus 1^n,t)=1] \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6020">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=S(k,m\oplus1^n ),V' (k,m,t)=(k,m\oplus1^n,t) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3475">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=[t\leftarrow S(k,m),output (t,t)] \)&lt;br&gt;\( V' (k,m, (t_1,t_2))=\{(V(k,m,t_1 ), если \{t_1=t_2\}; 0, иначе)\} \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6935">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=S(k,m[0,…,n-2]||0 \)&lt;br&gt;\( V' (k,m,t)=V(k,m[0,…,n-2]||0,t) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3404">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=(S(k,m),S(k,0^n )) \)&lt;br&gt;\( V' (k,m,(t_1,t_2 ))=[V(k,m,t_1 ) и V(k,0^n,t_2 )] \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8729">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,m)=S(k,m)||m \)&lt;br&gt;\( V' (k,m,t)=V(k,m,t[0,…,127]) и t[128...]=m \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6986">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,(a_1,a_2 ))=S(k,a_1 )||S(k,a_2) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4620">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' (k,(a_1,a_2 ))=S(k,a_1 )\oplus S(k,a_2) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="988">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S'(k_1,k_2),(a_1,a_2 ))=S(k_1,a_1 )||S(k_2,a_2) &amp;nbsp;\)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8426">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;\( S' ((k_1,k_2),(a_1,a_2 ))=S(k_1,a_1 )\oplus S(k_2,a_2) \)&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <and>
+                <varequal respident="response1">1426</varequal>
+                <not>
+                  <varequal respident="response1">5518</varequal>
+                </not>
+                <varequal respident="response1">6020</varequal>
+                <varequal respident="response1">3475</varequal>
+                <not>
+                  <varequal respident="response1">6935</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">3404</varequal>
+                </not>
+                <varequal respident="response1">8729</varequal>
+                <not>
+                  <varequal respident="response1">6986</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">4620</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">988</varequal>
+                </not>
+                <not>
+                  <varequal respident="response1">8426</varequal>
+                </not>
+              </and>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>
